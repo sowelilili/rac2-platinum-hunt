@@ -1,0 +1,26 @@
+#- name: Platinum Bolt Hunt
+#- author: robo & isak
+#- href: https://github.com/MichaelRelaxen/racman
+#- version: 1.0
+#- description: Scatter the game's platinum bolts to 60 exciting new locations!
+
+# Idk why but not having this makes everything crash constantly???
+0xBC5DA8: 0x38A00000
+
+# Increase maximum bolt counter in bolts menu
+0xb80f78: 0x38A0003C
+0xb80f80: 0x3880003C
+
+# Don't spawn in ship bolts on rings.
+0xffd4f0: 0x60000000
+0x179bc: 0x60000000
+0x10230e0: 0x60000000
+
+# Write coords and anim arrays to memory.
+0x1BF0000: bin/coords.bin
+0x1BF0800: bin/anims.bin
+0x13453f8: bin/maxbolts.bin
+
+# Run spawn game bolt function on every frame.
+0x10c955c: bin/spawn_game_bolt.bin
+0x10c17c8: 0x490c955f
