@@ -11,9 +11,6 @@
 #define bolt_collected(planetId, slot) \
     (collected_bolts_array[planetId * 4 + slot])
 
-#define bolt_ptr(slot) \
-    (bolt_ptrs[slot])
-
 #define moby_is_active(state) \
     ((state != 0xFE) && (state != 0xFD))
 	

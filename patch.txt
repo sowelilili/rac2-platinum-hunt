@@ -1,7 +1,7 @@
 #- name: Platinum Bolt Hunt
 #- author: robo & isak
 #- href: https://github.com/MichaelRelaxen/racman
-#- version: 1.0
+#- version: 1.2
 #- description: Scatter the game's platinum bolts to 60 exciting new locations!
 
 # Idk why but not having this makes everything crash constantly???
